@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8"><title>미션 - 최대값</title><link rel="stylesheet" href="../style.css"></head>
+<body>
+<div class="container">
+  <h2>🔍 미션: 최대값</h2>
+  <p>세 정수 중 가장 큰 값을 찾는 코드로 올바른 것은?</p>
+  <pre><code>
+1. max = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+2. if a > b and a > c: max = a
+3. max = max(a, b, c);
+4. if (a > b > c) max = a;
+  </code></pre>
+  <input type="text" id="answer" placeholder="정답을 입력하세요">
+  <button data-check-button data-correct-answer="1" data-next-page="../end.html" data-delay="3000">제출</button>
+  <p id="feedback"></p>
+  <button id="nextBtn" style="display: none;">미션 종료! 🏁</button>
+</div>
+<script src="../script.js"></script>
+</body></html>
